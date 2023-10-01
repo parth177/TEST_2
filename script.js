@@ -82,7 +82,7 @@ function displaySuperheroes(data) {
       event.preventDefault();
       const superheroId = this.getAttribute('data-superhero-id');
       localStorage.setItem('selectedSuperheroId', superheroId);
-      window.location.href = 'moreinfo.html'; // Redirect to the view more info page
+      window.location.href = 'moreInfo.html'; // Redirect to the view more info page
     });
   });
   const addToFavoritesButtons = document.querySelectorAll(
@@ -301,7 +301,7 @@ function fetchFavSuperheroes() {
       event.preventDefault();
       const superheroId = this.getAttribute('data-superhero-id');
       localStorage.setItem('selectedSuperheroId', superheroId);
-      window.location.href = 'moreinfo.html'; // Redirect to the view more info page
+      window.location.href = 'moreInfo.html'; // Redirect to the view more info page
     });
   });
   const addToFavoritesButtons = document.querySelectorAll(
